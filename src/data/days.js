@@ -9,16 +9,16 @@ const days = [
     mood: "Enthusiastic",
     src: `${day1}`,
     text: "100 Days Of Code Page",
-    hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
+    hrefGit: "https://github.com/annasauciuc/100daysOfCode",
 
     title: "Day 1"
   },
   {
     id: 2,
-    mood: "Enthusiastic",
+    mood: "Enthusiastic++",
     src: `${day2}`,
     classStyle: "fa-2x devicon-github-plain colored",
-    hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
+    hrefGit: "https://github.com/annasauciuc/reactTutorial-ticTacToe",
     text: "Tic Tac Toe React Tutorial",
     title: "Day 2"
   },
@@ -32,7 +32,7 @@ const days = [
   },
   {
     id: 4,
-    mood: "Enthusiastic",
+    mood: "?",
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
     text: "to be next",
@@ -40,7 +40,7 @@ const days = [
   },
   {
     id: 5,
-    mood: "Enthusiastic",
+    mood: "?",
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
     text: "to be next",
@@ -48,7 +48,7 @@ const days = [
   },
   {
     id: 6,
-    mood: "Enthusiastic",
+    mood: "?",
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
     text: "to be next",

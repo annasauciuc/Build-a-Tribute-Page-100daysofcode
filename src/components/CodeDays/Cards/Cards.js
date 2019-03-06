@@ -4,12 +4,16 @@ import Card from "./../Card";
 import "./Cards.css";
 
 
-const Cards = () => {
+const Cards = (props) => {
+  const {days}= props;
+  console.log("dd",days);
   return (
     <div className="container-fluid">
     <div className="row">
-      {getDayCards().map((card, i) => {
-          console.log(card.hrefGit)
+      {days.map((card, i) => {
+          console.log(getDayCards)
+          console.log(card)
+          
           
         return <Card  key={i} mood={card.mood} src={card.src} hrefGit={card.hrefGit} id={card.id} classStyle={card.classStyle} classStyleI={card.classStyleI} text={card.text} title={card.title} />;
       })}

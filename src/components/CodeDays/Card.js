@@ -19,7 +19,7 @@ const Card = props => {
           {" "}
           Mood: <b> {mood}</b>
         </p>
-     <div class="mb-1">   <img src={src} alt=""/></div>
+     <div className="mb-1">   <img src={src} alt=""/></div>
         <ExternalLink
         title="See Code"
           className="btn btn-outline-secondary   g-font-weight-600 rounded p-2"
