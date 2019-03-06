@@ -3,9 +3,10 @@ import { getDayCards } from "../../../services/getDay";
 import Card from "./../Card";
 import "./Cards.css";
 
+
 const Cards = () => {
   return (
-    <div className="d-flex flex-wrap container-fluid main">
+    <div className="d-flex flex-wrap ml-5 container-fluid main">
       {getDayCards().map((card, i) => {
           console.log(card)
           

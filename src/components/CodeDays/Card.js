@@ -2,11 +2,12 @@ import React, { Component } from "react";
 
 import "./Card.css";
 
+
 const Card = props => {
   const { classStyle, text, title ,classStyleI} = props;
 
   return (
-    <div className="card mb-3   col-xs-12 col-sm-6 col-md-4">
+    <div className="card mb-3 mr-1   col-xs-12 col-sm-6 col-md-3">
      
       <div className="card-body">
         <h4
@@ -16,7 +17,7 @@ const Card = props => {
           {title}
         </h4>
 
-        <p className="text-justify ">{text}</p>
+        <p className="text-justify "><b>{text}</b></p>
         <i className={classStyle} />
         <i className={classStyleI} />
       </div>

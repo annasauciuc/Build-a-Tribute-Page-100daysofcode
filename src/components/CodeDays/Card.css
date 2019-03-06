@@ -3,7 +3,8 @@
 }
 
 .card-body {
-    border: 1px solid black;
     border-radius: 8px;
-    background-color: #005987;
+}
+.card i{
+    
 }
