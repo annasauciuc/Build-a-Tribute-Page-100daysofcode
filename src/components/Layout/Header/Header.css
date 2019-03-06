@@ -1,5 +1,12 @@
  header img {
-     width: 200px;
+     width: 240px;
      height: 200px;
-     border-radius: 100%
+     border-radius: 100%;
+     border: 3px solid #00B4CC;
+     /* box-shadow: 10px 14px 28px rgba(0, 0, 0, 0.25), 3px 10px 10px rgba(0, 0, 0, 0.22); */
  }
+ 
+ .title {
+     font-size: 3.5rem;
+ }
+ /* background: #3cc5bc */

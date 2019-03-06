@@ -12,28 +12,34 @@ class Layout extends Component {
     this.state = {
       days: [],
       searchfield: ""
-    }
+    };
   }
   componentDidMount() {
-    console.log("getDayCards", );
-    this.setState({ days:  getDayCards() });
-    
-    console.log("this.state", this.state);
-  };
+    this.setState({ days: getDayCards() });
+  }
 
-  onSearchChange(event){
+  onSearchChange(event) {
     this.setState({ searchfield: event.target.value });
-  };
+  }
+
   render() {
     const { days, searchfield } = this.state;
-    const filtereddays = days.filter(day => {
-      return day.title.toLowerCase().includes(searchfield.toLowerCase());
+
+    const filteredDays = days.filter(day => {
+      return day.title
+        .toLowerCase()
+        .replace(/ +/g, "")
+        .includes(searchfield.toLowerCase().replace(/ +/g, ""));
     });
     return (
       <div className="container">
-        <SearchBox searchChange={this.onSearchChange} />
         <Header />
-        <Cards days={filtereddays} />
+        <SearchBox
+          searchChange={event => {
+            this.onSearchChange(event);
+          }}
+        />
+        <Cards days={filteredDays} />
         <Footer />
       </div>
     );

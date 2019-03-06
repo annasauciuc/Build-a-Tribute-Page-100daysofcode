@@ -1,0 +1,7 @@
+#searchDay {
+    border: 3px solid #00B4CC;
+}
+
+#searchDay::placeholder {
+    font-style: italic;
+}
