@@ -7,7 +7,7 @@ import Cards from "./../CodeDays/Cards/Cards";
 class Layout extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container">
         <Header />
         <Cards />
         <Footer />

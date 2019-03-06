@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <div className="row  mb-5">
-        <div className="col-sm-12 mt-5 text-white text-center" >
+        <div className="col-sm-12 mt-5  text-center" >
           {" "}
           <h1>You, just try!</h1>
           <h3>100 Days of Code</h3>
