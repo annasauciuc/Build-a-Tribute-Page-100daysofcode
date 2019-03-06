@@ -1,10 +1,11 @@
 import day1 from "../images/100dayCode.JPG";
+import day2 from "../images/tic.JPG";
 
 
 const days = [
   {
     id: 1,
-    classStyle: "fa-2x devicon-github-plain colored",
+    classStyle: " fa-2x devicon-github-plain colored",
     mood: "Enthusiastic",
     src: `${day1}`,
     text: "100 Days Of Code Page",
@@ -15,7 +16,7 @@ const days = [
   {
     id: 2,
     mood: "Enthusiastic",
-    src: `${day1}`,
+    src: `${day2}`,
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
     text: "Tic Tac Toe React Tutorial",
@@ -23,7 +24,7 @@ const days = [
   },
   {
     id: 3,
-    mood: "Enthusiastic",
+    mood: "?",
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://annasauciuc.github.io/100daysOfCode/.",
     text: "to be next",

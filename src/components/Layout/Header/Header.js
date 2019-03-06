@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
 import "./Header.css";
-import code from './images/laptopview.jpg'
+import code from '../../../images/1_VOVGtVFRVHp6wqrYlcPFAw.png'
 
 class Header extends Component {
   render() {
     return (
+      <header>
       <div className="row  mb-5">
         <div className="col-sm-12 mt-5  text-center" >
           {" "}
@@ -17,6 +18,7 @@ class Header extends Component {
           <img src={code} alt=" code view" />
         </div>
       </div>
+      </header>
     );
   }
 }
