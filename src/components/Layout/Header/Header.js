@@ -9,8 +9,7 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-       
-        <header >
+        <header>
           <div className="row   mb-5">
             <div className="col-sm-12 mt-5  text-center">
               {" "}
@@ -21,6 +20,17 @@ class Header extends Component {
             <div className="col-sm-12 mt-3 mb-5 d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
+            {/* <div className="progress">
+              <div
+                className="progress-bar progress-bar-info progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                50% Complete (info)
+              </div>
+            </div> */}
           </div>
         </header>
       </React.Fragment>

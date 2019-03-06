@@ -14,6 +14,13 @@ class Layout extends Component {
       searchfield: ""
     };
   }
+
+
+
+
+
+
+
   componentDidMount() {
     this.setState({ days: getDayCards() });
   }
