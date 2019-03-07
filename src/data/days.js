@@ -44,7 +44,7 @@ const days = [
     date: "07/03/2019",
 
     classStyle: "fa-2x devicon-github-plain colored",
-    hrefGit: "https://github.com/annasauciuc/reactTutorial-ticTacToe",
+    hrefGit: "https://github.com/annasauciuc/reactLayout-challengeDevslopes",
     text: "React Layout",
     title: "Day 3"
   }

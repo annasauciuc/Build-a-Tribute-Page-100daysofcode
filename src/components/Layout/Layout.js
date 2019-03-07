@@ -39,6 +39,7 @@ class Layout extends Component {
     return (
       <React.Fragment>
         <div className="container">
+        
           <Header progress={progress} />
           <SearchBox
             searchChange={event => {

@@ -27,17 +27,17 @@ class Header extends Component {
             <div className="col-sm-12 mt-3 mb-5 d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
-            <div className="progress  w-100">
-              <div
-                style={{ width: progress - 1 + "%" }}
-                className={this.getProgressClass(progress)}
-                role="progressbar"
-              >
-                {progress}% Complete
-              </div>
-            </div>
           </div>
         </header>
+        <div className="progress  w-100">
+          <div
+            style={{ width: progress + "%" }}
+            className={this.getProgressClass(progress)}
+            role="progressbar"
+          >
+            {progress}% Complete
+          </div>
+        </div>
       </React.Fragment>
     );
   }
