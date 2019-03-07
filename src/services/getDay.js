@@ -1,6 +1,5 @@
 import days from "../data/days";
 
-
 function getDayCards() {
   // let data = [];
   // const url = "http://www.amsauciuc.com/data/days.json";

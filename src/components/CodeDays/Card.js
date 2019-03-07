@@ -13,7 +13,7 @@ const Card = ({ classStyle, text, title, hrefGit, mood, date, languages }) => {
           <b>{text}</b>
         </p>
         <p className="">
-          Moods:<b> {mood}</b>
+          Mood:<b> {mood}</b>
         </p>
         <p className="text-justify">
           {" "}

@@ -7,13 +7,12 @@ import SearchBox from "../../Navigation/SearchBox/SearchBox";
 
 class Header extends Component {
   getProgressClass(progress) {
-    const width = { progress };
-
-    return `${width} progress-bar progress-bar-info  pl-3 progress-bar-striped `;
+    return ` progress-bar   text-dark  pl-3 filler `;
   }
 
   render() {
     const { progress } = this.props;
+    console.log("peogress :", progress);
 
     return (
       <React.Fragment>
@@ -28,12 +27,13 @@ class Header extends Component {
             <div className="col-sm-12 mt-3 mb-5 d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
-            <div className="progress w-100">
+            <div className="progress  w-100">
               <div
+                style={{ width: progress - 1 + "%" }}
                 className={this.getProgressClass(progress)}
                 role="progressbar"
               >
-                {progress}% Complete (info)
+                {progress}% Complete
               </div>
             </div>
           </div>
