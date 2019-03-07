@@ -15,12 +15,6 @@ class Layout extends Component {
     };
   }
 
-
-
-
-
-
-
   componentDidMount() {
     this.setState({ days: getDayCards() });
   }
@@ -39,16 +33,18 @@ class Layout extends Component {
         .includes(searchfield.toLowerCase().replace(/ +/g, ""));
     });
     return (
-      <div className="container">
-        <Header />
-        <SearchBox
-          searchChange={event => {
-            this.onSearchChange(event);
-          }}
-        />
-        <Cards days={filteredDays} />
+      <React.Fragment>
+        <div className="container">
+          <Header />
+          <SearchBox
+            searchChange={event => {
+              this.onSearchChange(event);
+            }}
+          />
+          <Cards days={filteredDays} />
+        </div>
         <Footer />
-      </div>
+      </React.Fragment>
     );
   }
 }
