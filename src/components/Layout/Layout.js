@@ -11,12 +11,16 @@ class Layout extends Component {
     super();
     this.state = {
       days: [],
-      searchfield: ""
+      searchfield: "",
+      progress: 0
     };
   }
 
   componentDidMount() {
-    this.setState({ days: getDayCards() });
+   
+    this.setState({ days: getDayCards(), progress: getDayCards().length });
+    console.log("getDayCards().length :", getDayCards().length);
+    console.log('this.state.progress :', this.state.progress);
   }
 
   onSearchChange(event) {
@@ -24,7 +28,8 @@ class Layout extends Component {
   }
 
   render() {
-    const { days, searchfield } = this.state;
+    const { days, searchfield, progress } = this.state;
+   
 
     const filteredDays = days.filter(day => {
       return day.title
@@ -35,7 +40,7 @@ class Layout extends Component {
     return (
       <React.Fragment>
         <div className="container">
-          <Header />
+          <Header progress={progress} />
           <SearchBox
             searchChange={event => {
               this.onSearchChange(event);

@@ -6,7 +6,15 @@ import personal from "../../../images/tech1.jpg";
 import SearchBox from "../../Navigation/SearchBox/SearchBox";
 
 class Header extends Component {
+  getProgressClass(progress) {
+    const width = { progress };
+
+    return `${width} progress-bar progress-bar-info  pl-3 progress-bar-striped `;
+  }
+
   render() {
+    const { progress } = this.props;
+
     return (
       <React.Fragment>
         <header>
@@ -20,17 +28,14 @@ class Header extends Component {
             <div className="col-sm-12 mt-3 mb-5 d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
-            {/* <div className="progress">
+            <div className="progress w-100">
               <div
-                className="progress-bar progress-bar-info progress-bar-striped"
+                className={this.getProgressClass(progress)}
                 role="progressbar"
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
               >
-                50% Complete (info)
+                {progress}% Complete (info)
               </div>
-            </div> */}
+            </div>
           </div>
         </header>
       </React.Fragment>
