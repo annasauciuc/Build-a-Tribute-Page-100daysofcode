@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Cards from "./../CodeDays/Cards/Cards";
 import SearchBox from "../Navigation/SearchBox/SearchBox";
+import ErrorBoundry from '../ErrorBoundry/ErrorBoundry';
 import { getDayCards } from "../../services/getDay";
 
 class Layout extends Component {
@@ -17,10 +18,9 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-   
     this.setState({ days: getDayCards(), progress: getDayCards().length });
     console.log("getDayCards().length :", getDayCards().length);
-    console.log('this.state.progress :', this.state.progress);
+    console.log("this.state.progress :", this.state.progress);
   }
 
   onSearchChange(event) {
@@ -29,7 +29,6 @@ class Layout extends Component {
 
   render() {
     const { days, searchfield, progress } = this.state;
-   
 
     const filteredDays = days.filter(day => {
       return day.title
@@ -46,7 +45,9 @@ class Layout extends Component {
               this.onSearchChange(event);
             }}
           />
-          <Cards days={filteredDays} />
+          <ErrorBoundry>
+            <Cards days={filteredDays} />
+          </ErrorBoundry>
         </div>
         <Footer />
       </React.Fragment>
