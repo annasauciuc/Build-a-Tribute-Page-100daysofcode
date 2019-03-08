@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Cards from "./../CodeDays/Cards/Cards";
 import SearchBox from "../Navigation/SearchBox/SearchBox";
-import ErrorBoundry from '../ErrorBoundry/ErrorBoundry';
+import ErrorBoundry from "../ErrorBoundry/ErrorBoundry";
 import { getDayCards } from "../../services/getDay";
 
 class Layout extends Component {
@@ -19,8 +19,6 @@ class Layout extends Component {
 
   componentDidMount() {
     this.setState({ days: getDayCards(), progress: getDayCards().length });
-    console.log("getDayCards().length :", getDayCards().length);
-    console.log("this.state.progress :", this.state.progress);
   }
 
   onSearchChange(event) {
@@ -39,7 +37,6 @@ class Layout extends Component {
     return (
       <React.Fragment>
         <div className="container">
-        
           <Header progress={progress} />
           <SearchBox
             searchChange={event => {

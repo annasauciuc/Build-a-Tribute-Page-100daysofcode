@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "./Card.css";
 import ExternalLink from "../ExternalLink/ExternalLink";
 
-const Card = ({ classStyle, text, title, hrefGit, mood, date, languages }) => {
+const Card = ({ classStyle, text, title, hrefGit, mood, date, languages,research }) => {
   return (
     <div className="d-flex    mb-3 col-xs-12 col-sm-6 col-md-4">
       <div className="card-body ">
@@ -14,6 +14,9 @@ const Card = ({ classStyle, text, title, hrefGit, mood, date, languages }) => {
         </p>
         <p className="">
           Mood:<b> {mood}</b>
+        </p>
+        <p className="">
+          Research:<b> {research}</b>
         </p>
         <p className="text-justify">
           {" "}

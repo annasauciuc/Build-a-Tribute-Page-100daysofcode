@@ -21,6 +21,7 @@ const Cards = ({ days }) => {
               classStyleI={card.classStyleI}
               text={card.text}
               title={card.title}
+              research={card.research}
             />
           );
         })}
