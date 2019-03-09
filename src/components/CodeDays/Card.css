@@ -1,7 +1,7 @@
 .card-body {
     /* border: 1px solid rgb(90, 121, 156); */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    background-color: rgb(155, 189, 207);
+    background-color: rgb(228, 229, 230);
     border-radius: 10px;
     color: rgb(31, 31, 31);
 }
@@ -12,5 +12,5 @@
 }
 
 .footer {
-    background-color: rgb(20, 26, 25);
+    background-color: #024454;
 }

@@ -3,9 +3,18 @@ import React, { Component } from "react";
 import "./Card.css";
 import ExternalLink from "../ExternalLink/ExternalLink";
 
-const Card = ({ classStyle, text, title, hrefGit, mood, date, languages,research }) => {
+const Card = ({
+  classStyle,
+  text,
+  title,
+  hrefGit,
+  mood,
+  date,
+  languages,
+  research
+}) => {
   return (
-    <div className="d-flex    mb-3 col-xs-12 col-sm-6 col-md-4">
+    <div className="d-flex    mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-4">
       <div className="card-body ">
         <h4 className="card-title  font-weight-bold text-center ">{title}</h4>
 
@@ -37,7 +46,7 @@ const Card = ({ classStyle, text, title, hrefGit, mood, date, languages,research
         <div className="d-flex footer ">
           <div className="ml-auto">
             {languages.map((lang, i) => {
-              return <i className={lang} key={i} />;
+              return <i className={lang} key={"lang" + i} />;
             })}
           </div>
         </div>

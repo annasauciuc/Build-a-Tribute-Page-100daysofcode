@@ -10,7 +10,7 @@ const Cards = ({ days }) => {
         {days.map((card, i) => {
           return (
             <Card
-              key={i}
+              key={"card" + i}
               languages={card.languages}
               mood={card.mood}
               src={card.src}

@@ -7,7 +7,7 @@ import SearchBox from "../../Navigation/SearchBox/SearchBox";
 
 class Header extends Component {
   getProgressClass(progress) {
-    return ` progress-bar   text-dark  pl-3 filler `;
+    return ` progress-bar text-center  text-dark  pl-3 filler `;
   }
 
   render() {
@@ -29,7 +29,7 @@ class Header extends Component {
             </div>
           </div>
         </header>
-        <div className="progress  w-100">
+        <div className="progress    w-100">
           <div
             style={{ width: progress + "%" }}
             className={this.getProgressClass(progress)}

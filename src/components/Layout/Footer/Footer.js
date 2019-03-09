@@ -14,7 +14,7 @@ class Footer extends Component {
               <a href="#TITLE"> <button id="floating-action-button" className="btn position-fixed shadow">
                       <i className="m-auto fas text-white fa-arrow-up btn-md btnFloat rounded-circle"></i>
                   </button> </a>
-              <p>&copy; 2019 Sauciuc Ana Maria</p>
+              <span>&copy; 2019 Sauciuc Ana Maria</span>
           </div>
       </div>
   </footer>
