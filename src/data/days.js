@@ -34,7 +34,7 @@ const days = [
 
   {
     id: 3,
-    mood: "Mock up Layout",
+    mood: "Confident",
     languages: [
       "devicon-html5-plain colored mr-1",
       "devicon-css3-plain colored  mr-1",
