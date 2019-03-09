@@ -18,7 +18,10 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    this.setState({ days: getDayCards(), progress: getDayCards().length });
+    getDayCards().then(days=>{
+      this.setState({ days: days, progress: days.length });
+    })
+    
   }
 
   onSearchChange(event) {

@@ -1,22 +1,31 @@
-import days from "../data/days";
+const getDayCards = () => {
+  let result = [];
+  const url =
+    "https://cors-anywhere.herokuapp.com/http://www.amsauciuc.com/data/days.json";
 
-function getDayCards() {
-  // let data = [];
-  // const url = "http://www.amsauciuc.com/data/days.json";
-
-  // fetch(url, {
-  //   method: "GET",
-  //   mode: "no-cors",
-  //   headers: {
-  //     "Access-Control-Allow-Origin": "*",
-  //     "Content-Type": "text/html"
-  //   }
-  // }).then(response => {
-  //   console.log("response :", response);
-  //   data = response.json();
-  //  // console.log("data", data);
-  //});
-  return days;
-}
+  return fetch(url)
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      result = data.data;
+      return result;
+    })
+    .catch(error => {
+      error = {
+        id: 0,
+        mood: "ERROR",
+        languages: [],
+        date: "Soon",
+        research: "Sorry for the error",
+        classStyle: "",
+        hrefGit: "",
+        text: "Error found sorry",
+        title: "Error!"
+      };
+      result.push(error);
+      return result;
+    });
+};
 
 export { getDayCards };
