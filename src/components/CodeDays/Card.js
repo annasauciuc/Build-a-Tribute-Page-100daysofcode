@@ -14,25 +14,25 @@ const Card = ({
   research
 }) => {
   return (
-    <div className="d-flex    mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div className="d-flex  cards   mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-4">
       <div className="card-body ">
         <h4 className="card-title  font-weight-bold text-center ">{title}</h4>
 
         <p className="text-center ">
           <b>{text}</b>
         </p>
-        <p className="">
+        <li className="">
           Mood:<b> {mood}</b>
-        </p>
-        <p className="">
+        </li>
+        <li className="">
           Research:<b> {research}</b>
-        </p>
-        <p className="text-justify">
+        </li>
+        <li className="text-justify">
           {" "}
           Date: <b> {date}</b>
-        </p>
+        </li>
 
-        <p>
+        <li class="lastLi">
           See code :{" "}
           <ExternalLink
             title="See Code"
@@ -41,7 +41,7 @@ const Card = ({
           >
             <i className={classStyle} />
           </ExternalLink>
-        </p>
+        </li>
 
         <div className="d-flex footer ">
           <div className="ml-auto">

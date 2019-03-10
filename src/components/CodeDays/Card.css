@@ -14,3 +14,47 @@
 .footer {
     background-color: #024454;
 }
+
+.cards li {
+    margin-top: .418em;
+    padding-left: 1.618em;
+    position: relative;
+}
+
+.card-body .lastLi::before {
+    background-color: #024454;
+    border-radius: 50%;
+    color: #fff;
+    content: "✓";
+    display: block;
+    font-size: .618em;
+    font-weight: 900;
+    height: 1.818em;
+    left: 0;
+    line-height: 1.75;
+    position: absolute;
+    text-align: center;
+    top: 1.950em!important;
+    width: 1.818em;
+}
+
+.cards li::before {
+    background-color: #024454;
+    border-radius: 50%;
+    color: #fff;
+    content: "✓";
+    display: block;
+    font-size: .618em;
+    font-weight: 900;
+    height: 1.818em;
+    left: 0;
+    line-height: 1.75;
+    position: absolute;
+    text-align: center;
+    top: .382em;
+    width: 1.818em;
+}
+
+li {
+    list-style: none;
+}
