@@ -1,9 +1,15 @@
 .card-body {
-    /* border: 1px solid rgb(90, 121, 156); */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    background-color: rgb(228, 229, 230);
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
     color: rgb(31, 31, 31);
+    border: 0px solid rgb(90, 121, 156);
+    /* width: 350px;
+    height: 300px; */
+}
+
+.cards {
+    /* width: 340px;
+    height: 320px; */
 }
 
 .card-body img {
@@ -11,8 +17,10 @@
     height: 150px;
 }
 
-.footer {
-    background-color: #024454;
+.footer-card {
+    height: 50px;
+    border: 2px solid #000000;
+    background-color: #1e2225;
 }
 
 .cards li {
@@ -22,7 +30,7 @@
 }
 
 .card-body .lastLi::before {
-    background-color: #024454;
+    background-color: #00B4CC;
     border-radius: 50%;
     color: #fff;
     content: "✓";
@@ -34,12 +42,12 @@
     line-height: 1.75;
     position: absolute;
     text-align: center;
-    top: 1.950em!important;
+    top: 1.950em !important;
     width: 1.818em;
 }
 
 .cards li::before {
-    background-color: #024454;
+    background-color: #00B4CC;
     border-radius: 50%;
     color: #fff;
     content: "✓";
