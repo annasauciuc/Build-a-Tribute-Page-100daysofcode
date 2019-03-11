@@ -18,10 +18,9 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    getDayCards().then(days=>{
+    getDayCards().then(days => {
       this.setState({ days: days, progress: days.length });
-    })
-    
+    });
   }
 
   onSearchChange(event) {
@@ -42,6 +41,7 @@ class Layout extends Component {
         <div className="container">
           <Header progress={progress} />
           <SearchBox
+            value={searchfield}
             searchChange={event => {
               this.onSearchChange(event);
             }}

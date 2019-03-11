@@ -32,7 +32,7 @@ const Card = ({
           Date: <b> {date}</b>
         </li>
 
-        <li class="lastLi">
+        <li className="lastLi">
           See code :{" "}
           <ExternalLink
             title="See Code"

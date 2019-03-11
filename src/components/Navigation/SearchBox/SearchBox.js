@@ -1,12 +1,14 @@
 import React from "react";
 import "./SearchBox.css";
-const SearchBox = ({ searchChange, searchfield }) => {
-  console.log("searchChange", searchChange);
+const SearchBox = ({ searchChange, value }) => {
+  console.log("value", value);
+
   return (
     <div className="pa2 mt-5 mb-5 d-flex justify-content-center">
       {" "}
       <form className=" align-content-center my-lg-0">
         <input
+          value={value}
           id="searchDay"
           className="form-control mr-sm-2"
           type="search"
