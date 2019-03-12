@@ -8,7 +8,8 @@
  }
  
  header {
-     height: 100%;
+     background-size: cover;
+     height: 110vh;
      background-color: #025569;
      /* padding-bottom: 5rem; */
  }
@@ -52,7 +53,7 @@
      font-family: Open Sans;
      font-style: italic;
      color: #ffffff;
-     padding: 1em;
+     padding: 3em 1em 1em 1em;
      line-height: 1.6;
      position: relative;
  }
