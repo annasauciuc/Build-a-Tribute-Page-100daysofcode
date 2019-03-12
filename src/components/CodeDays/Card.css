@@ -11,6 +11,7 @@
 }
 
 .footer-card {
+    box-shadow: 10px 14px 28px rgba(0, 0, 0, 0.25), 3px 10px 10px rgba(0, 0, 0, 0.22);
     height: 50px;
     background-color: #025569;
     background-color: #025569;
