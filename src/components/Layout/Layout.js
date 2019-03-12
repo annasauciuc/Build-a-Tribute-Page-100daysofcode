@@ -5,6 +5,7 @@ import Footer from "./Footer/Footer";
 import Cards from "./../CodeDays/Cards/Cards";
 import SearchBox from "../Navigation/SearchBox/SearchBox";
 import ErrorBoundry from "../ErrorBoundry/ErrorBoundry";
+import Loader from "./Loader/Loader";
 import { getDayCards } from "../../services/getDay";
 
 class Layout extends Component {
@@ -18,9 +19,15 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    getDayCards().then(days => {
-      this.setState({ days: days, progress: days.length });
-    });
+
+setTimeout(() => {
+  getDayCards().then(days => {
+    this.setState({ days: days, progress: days.length });
+  });
+}, 10000);
+
+
+ 
   }
 
   onSearchChange(event) {
@@ -47,9 +54,13 @@ class Layout extends Component {
                 this.onSearchChange(event);
               }}
             />
-            <ErrorBoundry>
-              <Cards days={filteredDays} />
-            </ErrorBoundry>
+            {!days.length ? (
+              <Loader />
+            ) : (
+              <ErrorBoundry>
+                <Cards days={filteredDays} />
+              </ErrorBoundry>
+            )}
           </main>
           <Footer />
         </section>

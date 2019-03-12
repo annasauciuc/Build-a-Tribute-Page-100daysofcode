@@ -17,10 +17,10 @@ const getDayCards = () => {
         mood: "ERROR",
         languages: [],
         date: "Soon",
-        research: "Sorry for the error",
+        research: "In may way to fix",
         classStyle: "",
         hrefGit: "",
-        text: "Error found sorry",
+        text: "Error found",
         title: "Error!"
       };
       result.push(error);
