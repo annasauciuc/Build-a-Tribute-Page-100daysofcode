@@ -1,4 +1,13 @@
 .mainContainer {
-    width: 80%;
+    width: 75%;
     margin: auto;
+}
+
+
+/***** Media query *****/
+
+@media only screen and (max-width: 785px) {
+    html {
+        font-size: 85%!important;
+    }
 }

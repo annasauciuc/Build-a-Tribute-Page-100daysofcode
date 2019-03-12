@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Layout.css"
+import "./Layout.css";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Cards from "./../CodeDays/Cards/Cards";
@@ -38,20 +38,21 @@ class Layout extends Component {
     });
     return (
       <React.Fragment>
-       
+        <section className="wrapper">
           <Header progress={progress} />
-          <div className="mainContainer">
-          <SearchBox
-            value={searchfield}
-            searchChange={event => {
-              this.onSearchChange(event);
-            }}
-          />
-          <ErrorBoundry>
-            <Cards days={filteredDays} />
-          </ErrorBoundry>
-        </div>
-        <Footer />
+          <main className="mainContainer">
+            <SearchBox
+              value={searchfield}
+              searchChange={event => {
+                this.onSearchChange(event);
+              }}
+            />
+            <ErrorBoundry>
+              <Cards days={filteredDays} />
+            </ErrorBoundry>
+          </main>
+          <Footer />
+        </section>
       </React.Fragment>
     );
   }
