@@ -15,7 +15,7 @@ class Header extends Component {
       <React.Fragment>
         <header>
 
-          <div className="flex-wrap d-flex   mb-5">
+          <div className="flex-wrap d-flex   mb-3">
             <div className="col-sm-12 mt-5   text-center">
               {" "}
               <h1 className="headerTitle ">You, just try!</h1>
