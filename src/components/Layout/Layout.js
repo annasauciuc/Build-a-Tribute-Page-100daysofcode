@@ -19,15 +19,9 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-
-setTimeout(() => {
-  getDayCards().then(days => {
-    this.setState({ days: days, progress: days.length });
-  });
-}, 10000);
-
-
- 
+    getDayCards().then(days => {
+      this.setState({ days: days, progress: days.length });
+    });
   }
 
   onSearchChange(event) {
