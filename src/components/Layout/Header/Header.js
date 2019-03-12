@@ -22,7 +22,7 @@ class Header extends Component {
               <h3>&#x3c;100 Days of Code/></h3>
             </div>
 
-            <div className="col-sm-12 mt-3  d-flex justify-content-center">
+            <div className="col-sm-12 mt-1  d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
             <blockquote className="headerBlockquote text-center font-weight-normal  w-100 h1">
