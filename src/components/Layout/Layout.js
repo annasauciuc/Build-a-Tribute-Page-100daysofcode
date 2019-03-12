@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./Layout.css"
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Cards from "./../CodeDays/Cards/Cards";
@@ -38,8 +38,9 @@ class Layout extends Component {
     });
     return (
       <React.Fragment>
-        <div className="container">
+       
           <Header progress={progress} />
+          <div className="mainContainer">
           <SearchBox
             value={searchfield}
             searchChange={event => {

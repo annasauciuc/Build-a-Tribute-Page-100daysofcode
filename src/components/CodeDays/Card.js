@@ -14,7 +14,7 @@ const Card = ({
   research
 }) => {
   return (
-    <div className="cards   mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div className="cards   mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div className="card-body rounded-top ">
         <h4 className="card-title  font-weight-bold text-center ">{title}</h4>
 
@@ -42,16 +42,14 @@ const Card = ({
             <i className={classStyle} />
           </ExternalLink>
         </li>
-
-       
       </div>
       <div className="d-flex pt-2 pb-3 rounded-bottom footer-card  ">
-          <div className="  ml-auto">
-            {languages.map((lang, i) => {
-              return <i className={lang} key={"lang" + i} />;
-            })}
-          </div>
+        <div className="  ml-auto">
+          {languages.map((lang, i) => {
+            return <i className={lang} key={"lang" + i} />;
+          })}
         </div>
+      </div>
     </div>
   );
 };
