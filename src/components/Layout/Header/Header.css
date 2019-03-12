@@ -1,3 +1,4 @@
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
  header img {
      width: 240px;
      height: 200px;
@@ -10,11 +11,11 @@
  header {
      height: 100%;
      background-color: #025569;
-     margin-top: 4rem;
+     /* margin-top: 4rem; */
      padding-bottom: 5rem;
  }
  
- blockquote {
+ .headerBlockquote {
      margin-bottom: 15rem;
  }
  
@@ -47,6 +48,17 @@
      height: 30px !important;
      overflow: hidden;
      font-size: 0.75rem;
-     background-color: #ffffff;
+     background-color: #ececec;
      border-radius: 0.25rem;
+ }
+ 
+ blockquote {
+     font-size: 1.4em;
+     width: 60%;
+     font-family: Open Sans;
+     font-style: italic;
+     color: #ffffff;
+     padding: 1em;
+     line-height: 1.6;
+     position: relative;
  }
