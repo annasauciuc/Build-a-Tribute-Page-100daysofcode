@@ -9,7 +9,7 @@ const days = [
       "devicon-react-plain colored  mr-1"
     ],
     mood: "Enthusiastic",
-    research:"Bootstrap",
+    research: "Bootstrap",
     text: "100 Days Of Code Page",
     hrefGit: "https://github.com/annasauciuc/100daysOfCode",
     date: "05/03/2019",
@@ -25,7 +25,7 @@ const days = [
       "devicon-react-plain colored  mr-1"
     ],
     date: "06/03/2019",
-    research:"Fetch API, React Tutorial",
+    research: "Fetch API, React Tutorial",
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://github.com/annasauciuc/reactTutorial-ticTacToe",
     text: "Tic Tac Toe React Tutorial",
@@ -42,7 +42,7 @@ const days = [
       "devicon-react-plain colored  mr-1"
     ],
     date: "07/03/2019",
-    research:"React Tutorial",
+    research: "React Tutorial",
     classStyle: "fa-2x devicon-github-plain colored",
     hrefGit: "https://github.com/annasauciuc/reactLayout-challengeDevslopes",
     text: "React Layout Devslopes",
@@ -52,7 +52,7 @@ const days = [
   {
     id: 4,
     mood: "Productive",
-    research:"Metaweather API",
+    research: "Metaweather API",
     languages: [
       "devicon-html5-plain colored mr-1",
       "devicon-css3-plain colored  mr-1",
@@ -65,6 +65,147 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/reactLayout-challengeDevslopes",
     text: "React Mock up Devslopes",
     title: "Day 4"
+  },
+
+  {
+    id: 5,
+    mood: "Out of Time",
+    research: "Quotes, FreeCodeCamp",
+    languages: [
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-bootstrap-plain-wordmark  fa-2x  mr-1"
+    ],
+    date: "09/03/2019",
+
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit:"https://github.com/annasauciuc/Random-Quote-Machine-React-freeCodeCamp",
+    text: "Random Quote Machine React ",
+    title: "Day 5"
+  },
+
+  {
+    id: 6,
+    mood: "Relax",
+    research: "react-markdown library, FreeCodeCamp",
+    languages: [
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-bootstrap-plain-wordmark  fa-2x  mr-1"
+    ],
+    date: "10/03/2019",
+
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit:"https://github.com/annasauciuc/Build-a-Markdown-Previewer-React-freeCodeCamp",
+    text: "Markdown Previewer React/ First Part",
+    title: "Day 6"
+  },
+
+  {
+    id: 7,
+    mood: "Relax++",
+    research: "react-markdown library, FreeCodeCamp",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-bootstrap-plain-wordmark  fa-2x  mr-1"
+    ],
+    date: "11/03/2019",
+
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit:"https://github.com/annasauciuc/Build-a-Markdown-Previewer-React-freeCodeCamp",
+    text: "Markdown Previewer React /Second part",
+    title: "Day 7"
+  },
+
+  {
+    id: 8,
+    mood: "Positive thinking",
+    research: "Event Key Code, Data Attibutes",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "12/03/2019",
+
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/Build-a-Drum-Machine-freeCodeCamp",
+    text: "Code refactoring Day/ Starting with Drum Machine/FreeCodeCamp",
+    title: "Day 8"
+  },
+
+  {
+    id: 9,
+    mood: "Comunication in React Components",
+    research: "React Components",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "13/03/2019",
+
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/Build-a-Drum-Machine-freeCodeCamp",
+    text: "Drum Machine/FreeCodeCamp",
+    title: "Day 9"
+  },
+  {
+    id: 10,
+    mood: "Getting there 😊 ",
+    research: "React Components",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "14/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/ToDoList-React",
+    text: "To Do List React/Drum Machine-FreeCodeCamp",
+    title: "Day 10"
+  },
+  {
+    id: 11,
+    mood: "Excited++",
+    research: "Node.js",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "15/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Today was all about learning Node.js",
+    title: "Day 11"
+  },
+  {
+    id: 12,
+    mood: "Positive thinking",
+    research: "Node.js, Express, MongoDb",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "15/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Build A RESTful Api With Node.js And Express.Js",
+    title: "Day 12"
   }
 ];
 export default days;

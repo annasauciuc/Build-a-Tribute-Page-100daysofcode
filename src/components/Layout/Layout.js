@@ -18,11 +18,19 @@ class Layout extends Component {
     };
   }
 
-  componentDidMount() {
-    getDayCards().then(days => {
-      this.setState({ days: days, progress: days.length });
-    });
-  }
+  // componentDidMount() {
+  //   getDayCards().then(days => {
+  //     this.setState({ days: days, progress: days.length });
+  //   });
+  // }
+
+componentDidMount = () => {
+  console.log('getDayCards', getDayCards)
+ // this.setState({ days: getDayCards(), progress: days.length });
+ this.setState({ days: getDayCards(), progress: getDayCards().length });
+}
+
+
 
   onSearchChange(event) {
     this.setState({ searchfield: event.target.value });
