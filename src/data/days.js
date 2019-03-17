@@ -81,7 +81,8 @@ const days = [
     date: "09/03/2019",
 
     classStyle: "fa-2x devicon-github-plain colored ",
-    hrefGit:"https://github.com/annasauciuc/Random-Quote-Machine-React-freeCodeCamp",
+    hrefGit:
+      "https://github.com/annasauciuc/Random-Quote-Machine-React-freeCodeCamp",
     text: "Random Quote Machine React ",
     title: "Day 5"
   },
@@ -100,7 +101,8 @@ const days = [
     date: "10/03/2019",
 
     classStyle: "fa-2x devicon-github-plain colored ",
-    hrefGit:"https://github.com/annasauciuc/Build-a-Markdown-Previewer-React-freeCodeCamp",
+    hrefGit:
+      "https://github.com/annasauciuc/Build-a-Markdown-Previewer-React-freeCodeCamp",
     text: "Markdown Previewer React/ First Part",
     title: "Day 6"
   },
@@ -119,7 +121,8 @@ const days = [
     date: "11/03/2019",
 
     classStyle: "fa-2x devicon-github-plain colored ",
-    hrefGit:"https://github.com/annasauciuc/Build-a-Markdown-Previewer-React-freeCodeCamp",
+    hrefGit:
+      "https://github.com/annasauciuc/Build-a-Markdown-Previewer-React-freeCodeCamp",
     text: "Markdown Previewer React /Second part",
     title: "Day 7"
   },
@@ -181,9 +184,7 @@ const days = [
     research: "Node.js",
     languages: [
       "devicon-javascript-plain fa-2x colored   mr-1",
-      "devicon-react-plain colored fa-2x   mr-1",
-      "devicon-html5-plain fa-2x  colored  mr-1",
-      "devicon-css3-plain fa-2x colored   mr-1"
+      "devicon-nodejs-plain colored fa-2x   mr-1",
     ],
     date: "15/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
@@ -197,9 +198,10 @@ const days = [
     research: "Node.js, Express, MongoDb",
     languages: [
       "devicon-javascript-plain fa-2x colored   mr-1",
-      "devicon-react-plain colored fa-2x   mr-1",
-      "devicon-html5-plain fa-2x  colored  mr-1",
-      "devicon-css3-plain fa-2x colored   mr-1"
+      "devicon-nodejs-plain colored fa-2x   mr-1",
+      "devicon-express-original  fa-2x  mr-1",
+
+      "devicon-mongodb-plain-wordmark colored fa-2x   mr-1"
     ],
     date: "15/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",

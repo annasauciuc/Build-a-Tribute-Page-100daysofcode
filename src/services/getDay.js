@@ -1,5 +1,3 @@
-
-
 // const getDayCards = () => {
 //   let result = [];
 //   const url =
@@ -30,8 +28,6 @@
 //     });
 // };
 //export { getDayCards };
-
-
 
 import days from "../data/days";
 
