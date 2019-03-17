@@ -184,7 +184,7 @@ const days = [
     research: "Node.js",
     languages: [
       "devicon-javascript-plain fa-2x colored   mr-1",
-      "devicon-nodejs-plain colored fa-2x   mr-1",
+      "devicon-nodejs-plain colored fa-2x   mr-1"
     ],
     date: "15/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
@@ -203,11 +203,28 @@ const days = [
 
       "devicon-mongodb-plain-wordmark colored fa-2x   mr-1"
     ],
-    date: "15/03/2019",
+    date: "16/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
     hrefGit: "",
     text: "Build A RESTful Api With Node.js And Express.Js",
     title: "Day 12"
+  },
+  {
+    id: 13,
+    mood: "Study++",
+    research: "Node.js, Express, MongoDb, mLAb",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-nodejs-plain colored fa-2x   mr-1",
+      "devicon-express-original  fa-2x  mr-1",
+
+      "devicon-mongodb-plain-wordmark colored fa-2x   mr-1"
+    ],
+    date: "17/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "MongoDb",
+    title: "Day 13"
   }
 ];
 export default days;
