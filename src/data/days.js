@@ -3,10 +3,10 @@ const days = [
     id: 1,
     classStyle: " fa-2x devicon-github-plain colored",
     languages: [
-      "devicon-html5-plain colored mr-1",
-      "devicon-css3-plain colored  mr-1",
-      "devicon-javascript-plain colored  mr-1",
-      "devicon-react-plain colored  mr-1"
+      "devicon-html5-plain colored fa-2x  mr-1",
+      "devicon-css3-plain colored fa-2x   mr-1",
+      "devicon-javascript-plain colored fa-2x   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1"
     ],
     mood: "Enthusiastic",
     research: "Bootstrap",
@@ -19,10 +19,10 @@ const days = [
     id: 2,
     mood: "Enthusiastic++",
     languages: [
-      "devicon-html5-plain colored mr-1",
-      "devicon-css3-plain colored  mr-1",
-      "devicon-javascript-plain colored  mr-1",
-      "devicon-react-plain colored  mr-1"
+      "devicon-html5-plain colored fa-2x  mr-1",
+      "devicon-css3-plain colored fa-2x  mr-1",
+      "devicon-javascript-plain colored fa-2x  mr-1",
+      "devicon-react-plain colored fa-2x  mr-1"
     ],
     date: "06/03/2019",
     research: "Fetch API, React Tutorial",
@@ -36,10 +36,10 @@ const days = [
     id: 3,
     mood: "Confident",
     languages: [
-      "devicon-html5-plain colored mr-1",
-      "devicon-css3-plain colored  mr-1",
-      "devicon-javascript-plain colored  mr-1",
-      "devicon-react-plain colored  mr-1"
+      "devicon-html5-plain colored fa-2x mr-1",
+      "devicon-css3-plain colored fa-2x  mr-1",
+      "devicon-javascript-plain colored fa-2x  mr-1",
+      "devicon-react-plain colored fa-2x  mr-1"
     ],
     date: "07/03/2019",
     research: "React Tutorial",
@@ -54,10 +54,10 @@ const days = [
     mood: "Productive",
     research: "Metaweather API",
     languages: [
-      "devicon-html5-plain colored mr-1",
-      "devicon-css3-plain colored  mr-1",
-      "devicon-javascript-plain colored  mr-1",
-      "devicon-react-plain colored  mr-1"
+      "devicon-html5-plain colored fa-2x mr-1",
+      "devicon-css3-plain colored fa-2x  mr-1",
+      "devicon-javascript-plain colored fa-2x  mr-1",
+      "devicon-react-plain colored fa-2x  mr-1"
     ],
     date: "08/03/2019",
 
