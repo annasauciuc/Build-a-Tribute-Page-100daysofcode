@@ -225,6 +225,23 @@ const days = [
     hrefGit: "",
     text: "MongoDb",
     title: "Day 13"
+  },
+  {
+    id: 14,
+    mood: "Code++",
+    research: "Node.js, Express, MongoDb, mLAb",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-nodejs-plain colored fa-2x   mr-1",
+      "devicon-express-original  fa-2x  mr-1",
+
+      "devicon-mongodb-plain-wordmark colored fa-2x   mr-1"
+    ],
+    date: "18/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/ToDoList-React",
+    text: "MongoDb",
+    title: "Day 14"
   }
 ];
 export default days;
