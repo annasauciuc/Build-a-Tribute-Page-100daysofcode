@@ -222,7 +222,7 @@ const days = [
     ],
     date: "17/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
-    hrefGit: "",
+    hrefGit: "https://github.com/annasauciuc/ToDoList-React",
     text: "MongoDb",
     title: "Day 13"
   },
@@ -239,7 +239,7 @@ const days = [
     ],
     date: "18/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
-    hrefGit: "",
+    hrefGit: "https://github.com/annasauciuc/To-Do-List-Node.js-RESTful-API",
     text: "MongoDb",
     title: "Day 14"
   },
@@ -259,7 +259,7 @@ const days = [
     mood: " Search best tutorials, Study",
     research: "Angular.js",
     languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
-    date: "19/03/2019",
+    date: "20/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
     hrefGit: "https://github.com/annasauciuc/angular_learnByDoingIt",
     text: "Angular.js",
