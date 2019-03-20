@@ -253,6 +253,17 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/ToDoList-React",
     text: "Angular.js",
     title: "Day 15"
+  },
+  {
+    id: 16,
+    mood: " Search best tutorials, Study",
+    research: "Angular.js",
+    languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
+    date: "19/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/ToDoList-React",
+    text: "Angular.js",
+    title: "Day 16"
   }
 ];
 export default days;
