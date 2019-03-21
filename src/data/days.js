@@ -13,7 +13,7 @@ const days = [
     text: "100 Days Of Code Page",
     hrefGit: "https://github.com/annasauciuc/100daysOfCode",
     date: "05/03/2019",
-    title: "Day 1"
+    title: "Day 1 🎉"
   },
   {
     id: 2,
@@ -190,7 +190,7 @@ const days = [
     classStyle: "fa-2x devicon-github-plain colored ",
     hrefGit: "",
     text: "Today was all about learning Node.js",
-    title: "Day 11"
+    title: " ✨Day 11 🙏"
   },
   {
     id: 12,
@@ -264,6 +264,17 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/angular_learnByDoingIt",
     text: "Angular.js",
     title: "Day 16"
+  },,
+  {
+    id: 17,
+    mood: "Study Angular.js",
+    research: "Angular.js",
+    languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
+    date: "21/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/angular_learnByDoingIt",
+    text: "Angular.js",
+    title: "Day 17"
   }
 ];
 export default days;
