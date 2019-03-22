@@ -257,7 +257,7 @@ const days = [
   {
     id: 16,
     mood: " Search best tutorials, Study",
-    research: "Angular.js",
+    research: "Angular.js, MVC",
     languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
     date: "20/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
@@ -268,7 +268,7 @@ const days = [
   {
     id: 17,
     mood: "Study Angular.js",
-    research: "Angular.js",
+    research: "Angular.js ng-include, ng-repeat, ng-model",
     languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
     date: "21/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
@@ -279,7 +279,7 @@ const days = [
   {
     id: 18,
     mood: "Practice Angular.js",
-    research: "Angular.js",
+    research: "Angular.js, ng-route",
     languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
     date: "22/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
