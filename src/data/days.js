@@ -297,6 +297,17 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/angular_learnByDoingIt",
     text: "Angular.js",
     title: "Day 19"
+  },
+  {
+    id: 20,
+    mood: "Practice Angular.js",
+    research: "Following the Net Ninja Tutorial",
+    languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
+    date: "24/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/basicsAngular.js",
+    text: "Angular.js",
+    title: "Day 20"
   }
 ];
 export default days;
