@@ -330,6 +330,17 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/basicsAngular.js",
     text: "Code Wars",
     title: "Day 22"
+  },
+  {
+    id: 23,
+    mood: "Angular MVC",
+    research: "Stack overflow, Google",
+    languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
+    date: "27/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/basicsAngular.js",
+    text: "Angular MVC",
+    title: "Day 23"
   }
 ];
 export default days;
