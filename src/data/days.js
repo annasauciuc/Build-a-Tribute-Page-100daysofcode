@@ -333,7 +333,7 @@ const days = [
   },
   {
     id: 23,
-    mood: "Angular MVC",
+    mood: "Study++",
     research: "Stack overflow, Google",
     languages: ["devicon-angularjs-plain colored  fa-2x  mr-1"],
     date: "27/03/2019",
@@ -341,6 +341,17 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/basicsAngular.js",
     text: "Angular MVC",
     title: "Day 23"
+  },
+  {
+    id: 24,
+    mood: "Something great is about to happen",
+    research: "Stack overflow, Google",
+    languages: ["devicon-javascript-plain fa-2x colored   mr-1"],
+    date: "28/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "JavaScript and ES6 Challenges - Do you know JavaScript?",
+    title: "Day 24"
   }
 ];
 export default days;
