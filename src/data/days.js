@@ -352,6 +352,17 @@ const days = [
     hrefGit: "",
     text: "JavaScript and ES6 Challenges - Do you know JavaScript?",
     title: "Day 24"
+  },
+  {
+    id: 25,
+    mood: "Something great is about to happen",
+    research: "Stack overflow, Google",
+    languages: ["devicon-javascript-plain fa-2x colored   mr-1"],
+    date: "29/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "JavaScript and ES6 Challenges - Do you know JavaScript? / 2",
+    title: "Day 25"
   }
 ];
 export default days;
