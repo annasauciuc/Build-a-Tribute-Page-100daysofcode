@@ -363,6 +363,22 @@ const days = [
     hrefGit: "",
     text: "JavaScript and ES6 Challenges - Do you know JavaScript? / 2",
     title: "Day 25"
+  },
+  {
+    id: 26,
+    mood: "Is so nice working with ReactJs",
+    research: "",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "30/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "https://github.com/annasauciuc/SignIn-Up-Form",
+    text: "Double slider sign-in and sign-up form / www.florin-pop.com ",
+    title: "Day 26"
   }
 ];
 export default days;
