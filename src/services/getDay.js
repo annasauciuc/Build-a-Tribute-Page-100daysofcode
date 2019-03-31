@@ -17,7 +17,7 @@
 //         mood: "ERROR",
 //         languages: [],
 //         date: "Soon",
-//         research: "In may way to fix",
+//         research: "In my way to fix",
 //         classStyle: "",
 //         hrefGit: "",
 //         text: "Error found",

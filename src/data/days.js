@@ -366,7 +366,7 @@ const days = [
   },
   {
     id: 26,
-    mood: "Is so nice working with ReactJs",
+    mood: "It's so nice working with ReactJs",
     research: "",
     languages: [
       "devicon-javascript-plain fa-2x colored   mr-1",
