@@ -355,8 +355,8 @@ const days = [
   },
   {
     id: 25,
-    mood: "Something great is about to happen",
-    research: "Stack overflow, Google",
+    mood: "Positive",
+    research: "Old projects",
     languages: ["devicon-javascript-plain fa-2x colored   mr-1"],
     date: "29/03/2019",
     classStyle: "fa-2x devicon-github-plain colored ",
@@ -379,6 +379,22 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/SignIn-Up-Form",
     text: "Double slider sign-in and sign-up form / www.florin-pop.com ",
     title: "Day 26"
+  },
+  {
+    id: 27,
+    mood: "It's so nice working with ReactJs",
+    research: "",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1"
+    ],
+    date: "31/03/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Family time and reviewing 'Creating a REST API with Express.js and MongoDB' @robinwieruch  ",
+    title: "Day 27"
   }
 ];
 export default days;
