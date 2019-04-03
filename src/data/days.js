@@ -428,7 +428,24 @@ const days = [
     classStyle: "fa-2x devicon-github-plain colored ",
     hrefGit: "",
     text: "AngularJs && ReactJs",
-    title: "Day 28"
+    title: "Day 29"
+  },,
+  {
+    id: 30,
+    mood: "Try to code",
+    research: "New project idea in progress",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "02/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "AngularJs && ReactJs",
+    title: "Day 30"
   }
 ];
 export default days;
