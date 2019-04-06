@@ -480,6 +480,20 @@ const days = [
     hrefGit: "https://github.com/annasauciuc/gestionParking-AngularJS",
     text: "AngularJs",
     title: "Day 32"
+  },
+  {
+    id: 33,
+    mood: "Relax",
+    research: "MongoDB",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-mongodb-plain-wordmark colored fa-2x   mr-1"
+    ],
+    date: "06/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Starting doing  the back end for the app",
+    title: "Day 33"
   }
 ];
 export default days;
