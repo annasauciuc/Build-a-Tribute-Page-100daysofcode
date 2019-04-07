@@ -495,5 +495,20 @@ const days = [
     text: "Starting doing  the back end for the app",
     title: "Day 33"
   }
+  ,
+  {
+    id: 34,
+    mood: "A full day",
+    research: "MongoDB nODEjS",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-mongodb-plain-wordmark colored fa-2x   mr-1"
+    ],
+    date: "07/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Doing  the back end for the app",
+    title: "Day 34"
+  }
 ];
 export default days;
