@@ -523,5 +523,131 @@ const days = [
     text: "Doing  the back end for the app",
     title: "Day 35"
   }
+  ,
+  {
+    id: 36,
+    mood: " Powerfull",
+    research: "MongoDB NodejS",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "09/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Stop posting on Twitter ✔ ",
+    title: "Day 36"
+  }
+  ,
+  {
+    id: 37,
+    mood: "Active",
+    research: "MongoDB NodejS",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "10/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Adding the table with average users with CRUD",
+    title: "Day 37"
+  }
+  ,
+  {
+    id: 38,
+    mood: "Routes for the app",
+    research: "MongoDB NodejS",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "11/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Doing  the back end for the app",
+    title: "Day 38"
+  }
+  ,
+  {
+    id: 39,
+    mood: "Productive",
+    research: "Lodash",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "12/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Learn to use lodash",
+    title: "Day 39"
+  }
+  ,
+  {
+    id: 40,
+    mood: "Back ⬅",
+    research: "MongoDB NodejS",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "13/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "back to Bootstrap 3...",
+    title: "Day 40"
+  }
+  ,
+  {
+    id: 41,
+    mood: "Angular js function",
+    research: "Angular Js",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "14/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Changing JS pure functions with Angular JS",
+    title: "Day 41"
+  }
+  ,
+  {
+    id: 42,
+    mood: "Microsoft Web Semantic",
+    research: " Video Course",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "15/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Linkedin Learning",
+    title: "Day 42"
+  }
 ];
 export default days;
