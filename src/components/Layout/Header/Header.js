@@ -13,21 +13,18 @@ class Header extends Component {
 
     return (
       <React.Fragment>
-        <header data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="3000">
-
+        <header>
           <div  className="flex-wrap d-flex   mb-3">
             <div className="col-sm-12 mt-5   text-center">
               {" "}
-              <h1 className="headerTitle ">You, just try!</h1>
-              <h3>&#x3c;100 Days of Code/></h3>
+              <h1 data-aos="zoom-in-down" className="headerTitle ">You, just try!</h1>
+              <h3 data-aos="zoom-in-down" >&#x3c;100 Days of Code/></h3>
             </div>
 
             <div data-aos="zoom-in-down" className="col-sm-12 mt-1  d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
-            <blockquote className="headerBlockquote text-center font-weight-normal  w-100 h1">
+            <blockquote data-aos="zoom-in-down" className="headerBlockquote text-center font-weight-normal  w-100 h1">
               {" "}
               <i> Stay passionate and you will thrive, i am sure!</i>
             </blockquote>
