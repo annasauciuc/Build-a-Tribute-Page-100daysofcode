@@ -14,7 +14,8 @@ const Card = ({
   research
 }) => {
   return (
-    <div className="cards mt-5 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div  data-aos="zoom-in-right"
+     className="cards mt-5 col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div className="card-body rounded-top">
         <h4 className="card-title  font-weight-bold text-center ">{title}</h4>
 

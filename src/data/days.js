@@ -648,6 +648,23 @@ const days = [
     hrefGit: "",
     text: "Linkedin Learning",
     title: "Day 42"
+  },
+  {
+    id: 43,
+    mood: "What a beautiful world!",
+    research: "React JS",
+    languages: [
+      "devicon-javascript-plain fa-2x colored   mr-1",
+      "devicon-react-plain colored fa-2x   mr-1",
+      "devicon-html5-plain fa-2x  colored  mr-1",
+      "devicon-css3-plain fa-2x colored   mr-1",
+      "devicon-angularjs-plain colored  fa-2x  mr-1"
+    ],
+    date: "16/04/2019",
+    classStyle: "fa-2x devicon-github-plain colored ",
+    hrefGit: "",
+    text: "Style 100 days of code",
+    title: "Day 43"
   }
 ];
 export default days;
