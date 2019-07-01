@@ -9,7 +9,7 @@ const SearchBox = ({ searchChange, value }) => {
           value={value}
           id="searchDay"
           className="form-control mr-sm-2"
-          type="search"
+          type="number" pattern="\d*"
           placeholder="Search for a day"
           aria-label="Search"
           onChange={searchChange}
