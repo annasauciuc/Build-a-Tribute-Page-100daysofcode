@@ -24,10 +24,10 @@ class Header extends Component {
             <div data-aos="zoom-in-down" className="col-sm-12 mt-1  d-flex justify-content-center">
               <img src={personal} alt=" code view" />
             </div>
-            <blockquote data-aos="zoom-in-down" className="headerBlockquote text-center font-weight-normal  w-100 h1">
+            {/* <blockquote data-aos="zoom-in-down" className="headerBlockquote text-center font-weight-normal  w-100 h1">
               {" "}
               <i> Stay passionate and you will thrive, i am sure!</i>
-            </blockquote>
+            </blockquote> */}
           </div>
         </header>
         <section className="progress mx-auto w-50">

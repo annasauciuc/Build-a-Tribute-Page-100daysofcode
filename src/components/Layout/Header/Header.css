@@ -9,13 +9,24 @@
  
  header {
      background-size: cover;
-     height: 110vh;
-     background-color: #025569;
+     /* height: 110vh; */
+     /* background-color: #025569; */
+     background-image: url("./paper-184920_1920.jpg");
+     width: 100vw;
+     height: 100vh;
+     object-fit: cover;
+     object-position: center;
+     /* filter: brightness(0.75); */
      /* padding-bottom: 5rem; */
+ }
+ 
+ header h3 {
+     text-shadow: 3px 3px black;
  }
  
  .headerTitle {
      font-size: 3.5rem;
+     text-shadow: 3px 3px black;
  }
  
  .progressFiller {
@@ -56,4 +67,5 @@
      padding: 3em 1em 1em 1em;
      line-height: 1.6;
      position: relative;
+     text-shadow: 3px 3px black;
  }
